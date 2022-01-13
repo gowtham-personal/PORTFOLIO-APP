@@ -12,7 +12,7 @@
     "yarn": "^1.13.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server",
     "build": "react-scripts build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
